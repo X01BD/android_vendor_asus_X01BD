@@ -59,7 +59,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X01BD/proprietary/framework/vendor.qti.hardware.data.qmi-V1.0-java.jar:system/framework/vendor.qti.hardware.data.qmi-V1.0-java.jar \
     vendor/asus/X01BD/proprietary/framework/vendor.qti.ims.callinfo-V1.0-java.jar:system/framework/vendor.qti.ims.callinfo-V1.0-java.jar \
     vendor/asus/X01BD/proprietary/framework/vendor.qti.ims.rcsconfig-V1.0-java.jar:system/framework/vendor.qti.ims.rcsconfig-V1.0-java.jar \
-    vendor/asus/X01BD/proprietary/lib/android.hardware.sensors@1.0_x01bd.so:system/lib/android.hardware.sensors@1.0_x01bd.so \
     vendor/asus/X01BD/proprietary/lib/com.qualcomm.qti.wifidisplayhal@1.0.so:system/lib/com.qualcomm.qti.wifidisplayhal@1.0.so \
     vendor/asus/X01BD/proprietary/lib/extractors/libmmparser.so:system/lib/extractors/libmmparser.so \
     vendor/asus/X01BD/proprietary/lib/fm_helium.so:system/lib/fm_helium.so \
@@ -78,10 +77,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X01BD/proprietary/lib/libmmrtpdecoder.so:system/lib/libmmrtpdecoder.so \
     vendor/asus/X01BD/proprietary/lib/libmmrtpencoder.so:system/lib/libmmrtpencoder.so \
     vendor/asus/X01BD/proprietary/vendor/lib/libqmi_cci_system.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmi_cci_system.so \
-    vendor/asus/X01BD/proprietary/lib/libvr_amb_engine.so:system/lib/libvr_amb_engine.so \
-    vendor/asus/X01BD/proprietary/lib/libvr_object_engine.so:system/lib/libvr_object_engine.so \
-    vendor/asus/X01BD/proprietary/lib/libvr_sam_wrapper.so:system/lib/libvr_sam_wrapper.so \
-    vendor/asus/X01BD/proprietary/lib/libvraudio.so:system/lib/libvraudio.so \
     vendor/asus/X01BD/proprietary/lib/libwfdavenhancements.so:system/lib/libwfdavenhancements.so \
     vendor/asus/X01BD/proprietary/lib/libwfdclient.so:system/lib/libwfdclient.so \
     vendor/asus/X01BD/proprietary/lib/libwfdcodecv4l2.so:system/lib/libwfdcodecv4l2.so \
@@ -107,7 +102,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X01BD/proprietary/lib/vendor.qti.hardware.qteeconnector@1.0.so:system/lib/vendor.qti.hardware.qteeconnector@1.0.so \
     vendor/asus/X01BD/proprietary/lib/vendor.qti.hardware.tui_comm@1.0.so:system/lib/vendor.qti.hardware.tui_comm@1.0.so \
     vendor/asus/X01BD/proprietary/lib/vendor.qti.hardware.vpp@1.1.so:system/lib/vendor.qti.hardware.vpp@1.1.so \
-    vendor/asus/X01BD/proprietary/lib64/android.hardware.sensors@1.0_x01bd.so:system/lib64/android.hardware.sensors@1.0_x01bd.so \
     vendor/asus/X01BD/proprietary/lib64/com.qualcomm.qti.dpm.api@1.0.so:system/lib64/com.qualcomm.qti.dpm.api@1.0.so \
     vendor/asus/X01BD/proprietary/lib64/extractors/libmmparser.so:system/lib64/extractors/libmmparser.so \
     vendor/asus/X01BD/proprietary/lib64/fm_helium.so:system/lib64/fm_helium.so \
@@ -139,10 +133,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X01BD/proprietary/lib64/libmmrtpencoder.so:system/lib64/libmmrtpencoder.so \
     vendor/asus/X01BD/proprietary/vendor/lib64/libqmi_cci_system.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqmi_cci_system.so \
     vendor/asus/X01BD/proprietary/lib64/librcc.so:system/lib64/librcc.so \
-    vendor/asus/X01BD/proprietary/lib64/libvr_amb_engine.so:system/lib64/libvr_amb_engine.so \
-    vendor/asus/X01BD/proprietary/lib64/libvr_object_engine.so:system/lib64/libvr_object_engine.so \
-    vendor/asus/X01BD/proprietary/lib64/libvr_sam_wrapper.so:system/lib64/libvr_sam_wrapper.so \
-    vendor/asus/X01BD/proprietary/lib64/libvraudio.so:system/lib64/libvraudio.so \
     vendor/asus/X01BD/proprietary/lib64/libwfdclient.so:system/lib64/libwfdclient.so \
     vendor/asus/X01BD/proprietary/lib64/libwfdnative.so:system/lib64/libwfdnative.so \
     vendor/asus/X01BD/proprietary/lib64/vendor.qti.esepowermanager@1.0.so:system/lib64/vendor.qti.esepowermanager@1.0.so \
@@ -172,7 +162,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X01BD/proprietary/vendor/bin/hw/android.hardware.drm@1.1-service.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.1-service.widevine \
     vendor/asus/X01BD/proprietary/vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.gatekeeper@1.0-service-qti \
     vendor/asus/X01BD/proprietary/vendor/bin/hw/android.hardware.keymaster@3.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.keymaster@3.0-service-qti \
-    vendor/asus/X01BD/proprietary/vendor/bin/hw/android.hardware.sensors@1.0-service_x01bd:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.sensors@1.0-service_x01bd \
     vendor/asus/X01BD/proprietary/vendor/bin/hw/qcrild:$(TARGET_COPY_OUT_VENDOR)/bin/hw/qcrild \
     vendor/asus/X01BD/proprietary/vendor/bin/hw/vendor.display.color@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.display.color@1.0-service \
     vendor/asus/X01BD/proprietary/vendor/bin/hw/vendor.qti.esepowermanager@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.esepowermanager@1.0-service \
@@ -201,13 +190,11 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X01BD/proprietary/vendor/bin/power_off_alarm:$(TARGET_COPY_OUT_VENDOR)/bin/power_off_alarm \
     vendor/asus/X01BD/proprietary/vendor/bin/qseecomd:$(TARGET_COPY_OUT_VENDOR)/bin/qseecomd \
     vendor/asus/X01BD/proprietary/vendor/bin/qti:$(TARGET_COPY_OUT_VENDOR)/bin/qti \
-    vendor/asus/X01BD/proprietary/vendor/bin/qvop-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/qvop-daemon \
     vendor/asus/X01BD/proprietary/vendor/bin/rmt_storage:$(TARGET_COPY_OUT_VENDOR)/bin/rmt_storage \
-    vendor/asus/X01BD/proprietary/vendor/bin/sensors.qcom:$(TARGET_COPY_OUT_VENDOR)/bin/sensors.qcom \
+    vendor/asus/X01BD/proprietary/vendor/bin/sensors.qti:$(TARGET_COPY_OUT_VENDOR)/bin/sensors.qti \
     vendor/asus/X01BD/proprietary/vendor/bin/tftp_server:$(TARGET_COPY_OUT_VENDOR)/bin/tftp_server \
     vendor/asus/X01BD/proprietary/vendor/bin/thermal-engine:$(TARGET_COPY_OUT_VENDOR)/bin/thermal-engine \
     vendor/asus/X01BD/proprietary/vendor/bin/time_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/time_daemon \
-    vendor/asus/X01BD/proprietary/vendor/bin/wcnss_filter:$(TARGET_COPY_OUT_VENDOR)/bin/wcnss_filter \
     vendor/asus/X01BD/proprietary/vendor/bin/wifidisplayhalservice:$(TARGET_COPY_OUT_VENDOR)/bin/wifidisplayhalservice \
     vendor/asus/X01BD/proprietary/vendor/bin/xtra-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/xtra-daemon \
     vendor/asus/X01BD/proprietary/vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
@@ -277,7 +264,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X01BD/proprietary/vendor/etc/init/android.hardware.drm@1.1-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.1-service.widevine.rc \
     vendor/asus/X01BD/proprietary/vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc \
     vendor/asus/X01BD/proprietary/vendor/etc/init/android.hardware.keymaster@3.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.keymaster@3.0-service-qti.rc \
-    vendor/asus/X01BD/proprietary/vendor/etc/init/android.hardware.sensors@1.0-service_x01bd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.sensors@1.0-service_x01bd.rc \
     vendor/asus/X01BD/proprietary/vendor/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc \
     vendor/asus/X01BD/proprietary/vendor/etc/init/qcrild.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qcrild.rc \
     vendor/asus/X01BD/proprietary/vendor/etc/init/vendor.display.color@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.display.color@1.0-service.rc \
@@ -299,10 +285,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X01BD/proprietary/vendor/etc/qdcm_calib_data_nt36672_1080p_video_mode_dsi_txd_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_nt36672_1080p_video_mode_dsi_txd_panel.xml \
     vendor/asus/X01BD/proprietary/vendor/etc/qdcm_calib_data_nt36672ah_1080p_video_mode_dsi_kd_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_nt36672ah_1080p_video_mode_dsi_kd_panel.xml \
     vendor/asus/X01BD/proprietary/vendor/etc/qdcm_calib_data_td4310_1080p_video_mode_dsi_txd_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_td4310_1080p_video_mode_dsi_txd_panel.xml \
-    vendor/asus/X01BD/proprietary/vendor/etc/qvop/antispoofing.bin:$(TARGET_COPY_OUT_VENDOR)/etc/qvop/antispoofing.bin \
-    vendor/asus/X01BD/proprietary/vendor/etc/qvop/cmudict.bin:$(TARGET_COPY_OUT_VENDOR)/etc/qvop/cmudict.bin \
-    vendor/asus/X01BD/proprietary/vendor/etc/qvop/noisesample.bin:$(TARGET_COPY_OUT_VENDOR)/etc/qvop/noisesample.bin \
-    vendor/asus/X01BD/proprietary/vendor/etc/qvop/poc_64_hmm.gmm:$(TARGET_COPY_OUT_VENDOR)/etc/qvop/poc_64_hmm.gmm \
     vendor/asus/X01BD/proprietary/vendor/etc/scve/facereco/gModel.dat:$(TARGET_COPY_OUT_VENDOR)/etc/scve/facereco/gModel.dat \
     vendor/asus/X01BD/proprietary/vendor/etc/sensors/sensor_def_qcomdev.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sensor_def_qcomdev.conf \
     vendor/asus/X01BD/proprietary/vendor/etc/thermal-engine.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf \
@@ -367,10 +349,8 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X01BD/proprietary/vendor/firmware/tfa98xx.cnt:$(TARGET_COPY_OUT_VENDOR)/firmware/tfa98xx.cnt \
     vendor/asus/X01BD/proprietary/vendor/framework/vendor.qti.hardware.factory-V1.0-java.jar:$(TARGET_COPY_OUT_VENDOR)/framework/vendor.qti.hardware.factory-V1.0-java.jar \
     vendor/asus/X01BD/proprietary/vendor/lib/com.qualcomm.qti.ant@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.qti.ant@1.0_vendor.so \
-    vendor/asus/X01BD/proprietary/vendor/lib/com.qualcomm.qti.bluetooth_audio@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.qti.bluetooth_audio@1.0_vendor.so \
     vendor/asus/X01BD/proprietary/vendor/lib/com.qualcomm.qti.wifidisplayhal@1.0-halimpl.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.qti.wifidisplayhal@1.0-halimpl.so \
     vendor/asus/X01BD/proprietary/vendor/lib/com.qualcomm.qti.wifidisplayhal@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.qti.wifidisplayhal@1.0.so \
-    vendor/asus/X01BD/proprietary/vendor/lib/dualcali_dump.bin:$(TARGET_COPY_OUT_VENDOR)/lib/dualcali_dump.bin \
     vendor/asus/X01BD/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/eglSubDriverAndroid.so \
     vendor/asus/X01BD/proprietary/vendor/lib/egl/libEGL_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libEGL_adreno.so \
     vendor/asus/X01BD/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLESv1_CM_adreno.so \
@@ -384,7 +364,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X01BD/proprietary/vendor/lib/hw/android.hardware.keymaster@3.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.keymaster@3.0-impl-qti.so \
     vendor/asus/X01BD/proprietary/vendor/lib/hw/camera.sdm660.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.sdm660.so \
     vendor/asus/X01BD/proprietary/vendor/lib/hw/com.qualcomm.qti.ant@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/com.qualcomm.qti.ant@1.0-impl.so \
-    vendor/asus/X01BD/proprietary/vendor/lib/hw/com.qualcomm.qti.bluetooth_audio@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/com.qualcomm.qti.bluetooth_audio@1.0-impl.so \
     vendor/asus/X01BD/proprietary/vendor/lib/hw/gatekeeper.sdm660.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gatekeeper.sdm660.so \
     vendor/asus/X01BD/proprietary/vendor/lib/hw/keystore.sdm660.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/keystore.sdm660.so \
     vendor/asus/X01BD/proprietary/vendor/lib/hw/sound_trigger.primary.sdm660.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sound_trigger.primary.sdm660.so \
@@ -826,7 +805,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X01BD/proprietary/vendor/lib/libqti-perfd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqti-perfd.so \
     vendor/asus/X01BD/proprietary/vendor/lib/libqti-util.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqti-util.so \
     vendor/asus/X01BD/proprietary/vendor/lib/libqtigef.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqtigef.so \
-    vendor/asus/X01BD/proprietary/vendor/lib/libqvop-service.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqvop-service.so \
     vendor/asus/X01BD/proprietary/vendor/lib/libremosaic_daemon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libremosaic_daemon.so \
     vendor/asus/X01BD/proprietary/vendor/lib/librpmb.so:$(TARGET_COPY_OUT_VENDOR)/lib/librpmb.so \
     vendor/asus/X01BD/proprietary/vendor/lib/librs_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/librs_adreno.so \
@@ -863,7 +841,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X01BD/proprietary/vendor/lib/libvpplibrary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvpplibrary.so \
     vendor/asus/X01BD/proprietary/vendor/lib/libvpptestutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvpptestutils.so \
     vendor/asus/X01BD/proprietary/vendor/lib/libvqzip.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvqzip.so \
-    vendor/asus/X01BD/proprietary/vendor/lib/libvraudio_client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvraudio_client.so \
     vendor/asus/X01BD/proprietary/vendor/lib/libvtc_anti_algo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvtc_anti_algo.so \
     vendor/asus/X01BD/proprietary/vendor/lib/libwfdcommonutils_proprietary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfdcommonutils_proprietary.so \
     vendor/asus/X01BD/proprietary/vendor/lib/libwfdhaldsmanager.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfdhaldsmanager.so \
@@ -915,7 +892,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X01BD/proprietary/vendor/lib/vendor.qti.hardware.vpp@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.vpp@1.1.so \
     vendor/asus/X01BD/proprietary/vendor/lib64/android.hardware.gatekeeper@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.gatekeeper@1.0.so \
     vendor/asus/X01BD/proprietary/vendor/lib64/com.qualcomm.qti.ant@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qualcomm.qti.ant@1.0_vendor.so \
-    vendor/asus/X01BD/proprietary/vendor/lib64/com.qualcomm.qti.bluetooth_audio@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qualcomm.qti.bluetooth_audio@1.0_vendor.so \
     vendor/asus/X01BD/proprietary/vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qualcomm.qti.dpm.api@1.0.so \
     vendor/asus/X01BD/proprietary/vendor/lib64/com.qualcomm.qti.imscmservice@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qualcomm.qti.imscmservice@1.0.so \
     vendor/asus/X01BD/proprietary/vendor/lib64/com.qualcomm.qti.imscmservice@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qualcomm.qti.imscmservice@2.0.so \
@@ -932,11 +908,9 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X01BD/proprietary/vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so \
     vendor/asus/X01BD/proprietary/vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so \
     vendor/asus/X01BD/proprietary/vendor/lib64/hw/android.hardware.keymaster@3.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.keymaster@3.0-impl-qti.so \
-    vendor/asus/X01BD/proprietary/vendor/lib64/hw/android.hardware.sensors@1.0-impl_x01bd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.sensors@1.0-impl_x01bd.so \
     vendor/asus/X01BD/proprietary/vendor/lib64/hw/cdfinger.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/cdfinger.default.so \
     vendor/asus/X01BD/proprietary/vendor/lib64/hw/cdfinger.fingerprint.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/cdfinger.fingerprint.default.so \
     vendor/asus/X01BD/proprietary/vendor/lib64/hw/com.qualcomm.qti.ant@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/com.qualcomm.qti.ant@1.0-impl.so \
-    vendor/asus/X01BD/proprietary/vendor/lib64/hw/com.qualcomm.qti.bluetooth_audio@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/com.qualcomm.qti.bluetooth_audio@1.0-impl.so \
     vendor/asus/X01BD/proprietary/vendor/lib64/hw/fingerprint.focaltech.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.focaltech.default.so \
     vendor/asus/X01BD/proprietary/vendor/lib64/hw/gatekeeper.sdm660.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gatekeeper.sdm660.so \
     vendor/asus/X01BD/proprietary/vendor/lib64/hw/keystore.sdm660.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/keystore.sdm660.so \
@@ -1007,6 +981,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X01BD/proprietary/vendor/lib64/libaudioparsers.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudioparsers.so \
     vendor/asus/X01BD/proprietary/vendor/lib64/libbccQTI.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbccQTI.so \
     vendor/asus/X01BD/proprietary/vendor/lib64/libbt-hidlclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbt-hidlclient.so \
+    vendor/asus/X01BD/proprietary/vendor/lib64/libbtnv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbtnv.so \
     vendor/asus/X01BD/proprietary/vendor/lib64/libc2d30_bltlib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libc2d30_bltlib.so \
     vendor/asus/X01BD/proprietary/vendor/lib64/libcalmodule_common.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcalmodule_common.so \
     vendor/asus/X01BD/proprietary/vendor/lib64/libcdsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcdsprpc.so \
@@ -1113,7 +1088,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X01BD/proprietary/vendor/lib64/libqti-util.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqti-util.so \
     vendor/asus/X01BD/proprietary/vendor/lib64/libqtigef.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqtigef.so \
     vendor/asus/X01BD/proprietary/vendor/lib64/libquipc_os_api.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libquipc_os_api.so \
-    vendor/asus/X01BD/proprietary/vendor/lib64/libqvop-service.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqvop-service.so \
     vendor/asus/X01BD/proprietary/vendor/lib64/libril-qc-hal-qmi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libril-qc-hal-qmi.so \
     vendor/asus/X01BD/proprietary/vendor/lib64/libril-qc-ltedirectdisc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libril-qc-ltedirectdisc.so \
     vendor/asus/X01BD/proprietary/vendor/lib64/libril-qc-qmi-1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libril-qc-qmi-1.so \
@@ -1161,7 +1135,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X01BD/proprietary/vendor/lib64/libvpphvx.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvpphvx.so \
     vendor/asus/X01BD/proprietary/vendor/lib64/libvpplibrary.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvpplibrary.so \
     vendor/asus/X01BD/proprietary/vendor/lib64/libvpptestutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvpptestutils.so \
-    vendor/asus/X01BD/proprietary/vendor/lib64/libvraudio_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvraudio_client.so \
     vendor/asus/X01BD/proprietary/vendor/lib64/libvtc_anti_algo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvtc_anti_algo.so \
     vendor/asus/X01BD/proprietary/vendor/lib64/libwfdhdcpcp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwfdhdcpcp.so \
     vendor/asus/X01BD/proprietary/vendor/lib64/libwms.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwms.so \
@@ -1240,7 +1213,6 @@ PRODUCT_PACKAGES += \
     com.quicinc.cne.server@2.0 \
     com.quicinc.cne.server@2.1 \
     com.quicinc.cne.server@2.2 \
-    libbtnv \
     libloc_api_v02 \
     QtiTelephonyService \
     datastatusnotification \
