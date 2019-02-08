@@ -68,6 +68,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X01BD/proprietary/lib/libFileMux.so:system/lib/libFileMux.so \
     vendor/asus/X01BD/proprietary/lib/libGPTEE_system.so:system/lib/libGPTEE_system.so \
     vendor/asus/X01BD/proprietary/lib/libQTEEConnector_system.so:system/lib/libQTEEConnector_system.so \
+    vendor/asus/X01BD/proprietary/vendor/lib/libdiag_system.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdiag_system.so \
     vendor/asus/X01BD/proprietary/lib/libfm-hci.so:system/lib/libfm-hci.so \
     vendor/asus/X01BD/proprietary/lib/libhbtpjni.so:system/lib/libhbtpjni.so \
     vendor/asus/X01BD/proprietary/lib/liblistenjni.so:system/lib/liblistenjni.so \
@@ -76,6 +77,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X01BD/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
     vendor/asus/X01BD/proprietary/lib/libmmparser.so:system/lib/libmmparser.so \
     vendor/asus/X01BD/proprietary/lib/libmmparser_lite.so:system/lib/libmmparser_lite.so \
+    vendor/asus/X01BD/proprietary/vendor/lib/libqmi_cci_system.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmi_cci_system.so \
     vendor/asus/X01BD/proprietary/lib/libqti-at.so:system/lib/libqti-at.so \
     vendor/asus/X01BD/proprietary/lib/libqti-perfd-client_system.so:system/lib/libqti-perfd-client_system.so \
     vendor/asus/X01BD/proprietary/lib/libqti_performance.so:system/lib/libqti_performance.so \
@@ -126,6 +128,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X01BD/proprietary/lib64/libGPTEE_system.so:system/lib64/libGPTEE_system.so \
     vendor/asus/X01BD/proprietary/lib64/libQTEEConnector_system.so:system/lib64/libQTEEConnector_system.so \
     vendor/asus/X01BD/proprietary/lib64/libdiag_system.so:system/lib64/libdiag_system.so \
+    vendor/asus/X01BD/proprietary/vendor/lib64/libdiag_system.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdiag_system.so \
     vendor/asus/X01BD/proprietary/lib64/libdpmctmgr.so:system/lib64/libdpmctmgr.so \
     vendor/asus/X01BD/proprietary/lib64/libdpmfdmgr.so:system/lib64/libdpmfdmgr.so \
     vendor/asus/X01BD/proprietary/lib64/libdpmframework.so:system/lib64/libdpmframework.so \
@@ -140,6 +143,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X01BD/proprietary/lib64/libmmosal.so:system/lib64/libmmosal.so \
     vendor/asus/X01BD/proprietary/lib64/libmmparser.so:system/lib64/libmmparser.so \
     vendor/asus/X01BD/proprietary/lib64/libmmparser_lite.so:system/lib64/libmmparser_lite.so \
+    vendor/asus/X01BD/proprietary/vendor/lib64/libqmi_cci_system.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqmi_cci_system.so \
     vendor/asus/X01BD/proprietary/lib64/libqti-at.so:system/lib64/libqti-at.so \
     vendor/asus/X01BD/proprietary/lib64/libqti-perfd-client_system.so:system/lib64/libqti-perfd-client_system.so \
     vendor/asus/X01BD/proprietary/lib64/libqti-util_system.so:system/lib64/libqti-util_system.so \
