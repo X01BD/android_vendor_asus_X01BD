@@ -365,7 +365,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X01BD/proprietary/vendor/firmware/leia_pm4_470.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/leia_pm4_470.fw \
     vendor/asus/X01BD/proprietary/vendor/lib/libpn553_fw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpn553_fw.so \
     vendor/asus/X01BD/proprietary/vendor/firmware/mono.cnt:$(TARGET_COPY_OUT_VENDOR)/firmware/mono.cnt \
-    vendor/asus/X01BD/proprietary/vendor/firmware/novatek_ts_fw_v8B.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/novatek_ts_fw_v8B.bin \
+    vendor/asus/X01BD/proprietary/vendor/firmware/novatek_ts_fw_v8C.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/novatek_ts_fw_v8C.bin \
     vendor/asus/X01BD/proprietary/vendor/firmware/startup_fw_update.img:$(TARGET_COPY_OUT_VENDOR)/firmware/startup_fw_update.img \
     vendor/asus/X01BD/proprietary/vendor/firmware/tfa98xx.cnt:$(TARGET_COPY_OUT_VENDOR)/firmware/tfa98xx.cnt \
     vendor/asus/X01BD/proprietary/vendor/framework/vendor.qti.hardware.fingerprint-V1.0-java.jar:$(TARGET_COPY_OUT_VENDOR)/framework/vendor.qti.hardware.fingerprint-V1.0-java.jar \
