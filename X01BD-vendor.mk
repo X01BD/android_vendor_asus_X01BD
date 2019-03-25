@@ -130,6 +130,11 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X01BD/proprietary/lib64/libQTEEConnector_system.so:system/lib64/libQTEEConnector_system.so \
     vendor/asus/X01BD/proprietary/lib64/libaptXHD_encoder.so:system/lib64/libaptXHD_encoder.so \
     vendor/asus/X01BD/proprietary/lib64/libaptX_encoder.so:system/lib64/libaptX_encoder.so \
+    vendor/asus/X01BD/proprietary/lib64/libarcsoft_beautyshot.so:system/lib64/libarcsoft_beautyshot.so \
+    vendor/asus/X01BD/proprietary/lib64/libarcsoft_hdr.so:system/lib64/libarcsoft_hdr.so \
+    vendor/asus/X01BD/proprietary/lib64/libarcsoft_night_shot.so:system/lib64/libarcsoft_night_shot.so \
+    vendor/asus/X01BD/proprietary/lib64/libarcsoft_panorama_burstcapture.so:system/lib64/libarcsoft_panorama_burstcapture.so \
+    vendor/asus/X01BD/proprietary/lib64/libarcsoft_single_chart_calibration.so:system/lib64/libarcsoft_single_chart_calibration.so \
     vendor/asus/X01BD/proprietary/lib64/libdiag_system.so:system/lib64/libdiag_system.so \
     vendor/asus/X01BD/proprietary/lib64/libdpmctmgr.so:system/lib64/libdpmctmgr.so \
     vendor/asus/X01BD/proprietary/lib64/libdpmfdmgr.so:system/lib64/libdpmfdmgr.so \
@@ -138,13 +143,44 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X01BD/proprietary/lib64/libfm-hci.so:system/lib64/libfm-hci.so \
     vendor/asus/X01BD/proprietary/lib64/libimscamera_jni.so:system/lib64/libimscamera_jni.so \
     vendor/asus/X01BD/proprietary/lib64/libimsmedia_jni.so:system/lib64/libimsmedia_jni.so \
+    vendor/asus/X01BD/proprietary/lib64/libjni_blurbuster.so:system/lib64/libjni_blurbuster.so \
+    vendor/asus/X01BD/proprietary/lib64/libjni_chromaflash.so:system/lib64/libjni_chromaflash.so \
+    vendor/asus/X01BD/proprietary/lib64/libjni_clearsight.so:system/lib64/libjni_clearsight.so \
+    vendor/asus/X01BD/proprietary/lib64/libjni_dualcamera.so:system/lib64/libjni_dualcamera.so \
+    vendor/asus/X01BD/proprietary/lib64/libjni_filtergenerator.so:system/lib64/libjni_filtergenerator.so \
+    vendor/asus/X01BD/proprietary/lib64/libjni_gallery_eglfence.so:system/lib64/libjni_gallery_eglfence.so \
+    vendor/asus/X01BD/proprietary/lib64/libjni_gallery_filters.so:system/lib64/libjni_gallery_filters.so \
+    vendor/asus/X01BD/proprietary/lib64/libjni_gallery_jpegstream.so:system/lib64/libjni_gallery_jpegstream.so \
+    vendor/asus/X01BD/proprietary/lib64/libjni_hazebuster.so:system/lib64/libjni_hazebuster.so \
+    vendor/asus/X01BD/proprietary/lib64/libjni_hq_beautyshot.so:system/lib64/libjni_hq_beautyshot.so \
+    vendor/asus/X01BD/proprietary/lib64/libjni_hq_dualcam_calibration.so:system/lib64/libjni_hq_dualcam_calibration.so \
+    vendor/asus/X01BD/proprietary/lib64/libjni_hq_hdr_shot.so:system/lib64/libjni_hq_hdr_shot.so \
+    vendor/asus/X01BD/proprietary/lib64/libjni_hq_night_shot.so:system/lib64/libjni_hq_night_shot.so \
+    vendor/asus/X01BD/proprietary/lib64/libjni_hq_panorama.so:system/lib64/libjni_hq_panorama.so \
+    vendor/asus/X01BD/proprietary/lib64/libjni_imageutil.so:system/lib64/libjni_imageutil.so \
+    vendor/asus/X01BD/proprietary/lib64/libjni_makeupV2.so:system/lib64/libjni_makeupV2.so \
+    vendor/asus/X01BD/proprietary/lib64/libjni_optizoom.so:system/lib64/libjni_optizoom.so \
+    vendor/asus/X01BD/proprietary/lib64/libjni_pacprocessor.so:system/lib64/libjni_pacprocessor.so \
+    vendor/asus/X01BD/proprietary/lib64/libjni_panorama.so:system/lib64/libjni_panorama.so \
+    vendor/asus/X01BD/proprietary/lib64/libjni_seestraight.so:system/lib64/libjni_seestraight.so \
+    vendor/asus/X01BD/proprietary/lib64/libjni_sharpshooter.so:system/lib64/libjni_sharpshooter.so \
+    vendor/asus/X01BD/proprietary/lib64/libjni_snapcammosaic.so:system/lib64/libjni_snapcammosaic.so \
+    vendor/asus/X01BD/proprietary/lib64/libjni_snapcamtinyplanet.so:system/lib64/libjni_snapcamtinyplanet.so \
+    vendor/asus/X01BD/proprietary/lib64/libjni_stillmore.so:system/lib64/libjni_stillmore.so \
+    vendor/asus/X01BD/proprietary/lib64/libjni_trackingfocus.so:system/lib64/libjni_trackingfocus.so \
+    vendor/asus/X01BD/proprietary/lib64/libjni_trueportrait.so:system/lib64/libjni_trueportrait.so \
+    vendor/asus/X01BD/proprietary/lib64/libjni_truescanner_v2.so:system/lib64/libjni_truescanner_v2.so \
+    vendor/asus/X01BD/proprietary/lib64/libjni_ubifocus.so:system/lib64/libjni_ubifocus.so \
     vendor/asus/X01BD/proprietary/lib64/libmmi.so:system/lib64/libmmi.so \
     vendor/asus/X01BD/proprietary/lib64/libmmosal.so:system/lib64/libmmosal.so \
     vendor/asus/X01BD/proprietary/lib64/libmmparser_lite.so:system/lib64/libmmparser_lite.so \
     vendor/asus/X01BD/proprietary/lib64/libmmrtpdecoder.so:system/lib64/libmmrtpdecoder.so \
     vendor/asus/X01BD/proprietary/lib64/libmmrtpencoder.so:system/lib64/libmmrtpencoder.so \
+    vendor/asus/X01BD/proprietary/lib64/libmpbase.so:system/lib64/libmpbase.so \
     vendor/asus/X01BD/proprietary/vendor/lib64/libqmi_cci_system.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqmi_cci_system.so \
     vendor/asus/X01BD/proprietary/lib64/librcc.so:system/lib64/librcc.so \
+    vendor/asus/X01BD/proprietary/lib64/libscene-native-lib.so:system/lib64/libscene-native-lib.so \
+    vendor/asus/X01BD/proprietary/lib64/libtensorflow_inference.so:system/lib64/libtensorflow_inference.so \
     vendor/asus/X01BD/proprietary/lib64/libwfdclient.so:system/lib64/libwfdclient.so \
     vendor/asus/X01BD/proprietary/lib64/libwfdnative.so:system/lib64/libwfdnative.so \
     vendor/asus/X01BD/proprietary/lib64/vendor.qti.esepowermanager@1.0.so:system/lib64/vendor.qti.esepowermanager@1.0.so \
