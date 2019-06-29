@@ -291,7 +291,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X01BD/proprietary/vendor/etc/camera/gc5025_ofilm_16m_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/gc5025_ofilm_16m_chromatix.xml \
     vendor/asus/X01BD/proprietary/vendor/etc/camera/imx486_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx486_chromatix.xml \
     vendor/asus/X01BD/proprietary/vendor/etc/camera/imx486_qtech_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx486_qtech_chromatix.xml \
-    vendor/asus/X01BD/proprietary/vendor/etc/camera/ov13855_chicony_rear_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/ov13855_chicony_rear_chromatix.xml \
     vendor/asus/X01BD/proprietary/vendor/etc/camera/ov13855_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/ov13855_chromatix.xml \
     vendor/asus/X01BD/proprietary/vendor/etc/camera/ov13855_holitech_13m_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/ov13855_holitech_13m_chromatix.xml \
     vendor/asus/X01BD/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ATT/ATT_profile1.xml \
@@ -505,7 +504,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X01BD/proprietary/vendor/lib/libacdbrtac.so:$(TARGET_COPY_OUT_VENDOR)/lib/libacdbrtac.so \
     vendor/asus/X01BD/proprietary/vendor/lib/libactuator_imx486_holitech_12m.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_imx486_holitech_12m.so \
     vendor/asus/X01BD/proprietary/vendor/lib/libactuator_imx486_qtech_12m.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_imx486_qtech_12m.so \
-    vendor/asus/X01BD/proprietary/vendor/lib/libactuator_ov13855_chicony_rear_s2034.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_ov13855_chicony_rear_s2034.so \
     vendor/asus/X01BD/proprietary/vendor/lib/libactuator_ov13855_holitech_fp5510a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_ov13855_holitech_fp5510a.so \
     vendor/asus/X01BD/proprietary/vendor/lib/libactuator_pseudo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_pseudo.so \
     vendor/asus/X01BD/proprietary/vendor/lib/libadiertac.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadiertac.so \
@@ -646,32 +644,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X01BD/proprietary/vendor/lib/libchromatix_imx486_zsl_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx486_zsl_video_3a.so \
     vendor/asus/X01BD/proprietary/vendor/lib/libchromatix_ov13855_bokeh.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13855_bokeh.so \
     vendor/asus/X01BD/proprietary/vendor/lib/libchromatix_ov13855_bokeh_bu64297.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13855_bokeh_bu64297.so \
-    vendor/asus/X01BD/proprietary/vendor/lib/libchromatix_ov13855_chicony_rear_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13855_chicony_rear_common.so \
-    vendor/asus/X01BD/proprietary/vendor/lib/libchromatix_ov13855_chicony_rear_cpp_ds_chromatix.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13855_chicony_rear_cpp_ds_chromatix.so \
-    vendor/asus/X01BD/proprietary/vendor/lib/libchromatix_ov13855_chicony_rear_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13855_chicony_rear_cpp_hfr_120.so \
-    vendor/asus/X01BD/proprietary/vendor/lib/libchromatix_ov13855_chicony_rear_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13855_chicony_rear_cpp_hfr_60.so \
-    vendor/asus/X01BD/proprietary/vendor/lib/libchromatix_ov13855_chicony_rear_cpp_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13855_chicony_rear_cpp_hfr_90.so \
-    vendor/asus/X01BD/proprietary/vendor/lib/libchromatix_ov13855_chicony_rear_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13855_chicony_rear_cpp_liveshot.so \
-    vendor/asus/X01BD/proprietary/vendor/lib/libchromatix_ov13855_chicony_rear_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13855_chicony_rear_cpp_preview.so \
-    vendor/asus/X01BD/proprietary/vendor/lib/libchromatix_ov13855_chicony_rear_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13855_chicony_rear_cpp_snapshot.so \
-    vendor/asus/X01BD/proprietary/vendor/lib/libchromatix_ov13855_chicony_rear_cpp_us_chromatix.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13855_chicony_rear_cpp_us_chromatix.so \
-    vendor/asus/X01BD/proprietary/vendor/lib/libchromatix_ov13855_chicony_rear_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13855_chicony_rear_cpp_video.so \
-    vendor/asus/X01BD/proprietary/vendor/lib/libchromatix_ov13855_chicony_rear_cpp_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13855_chicony_rear_cpp_video_full.so \
-    vendor/asus/X01BD/proprietary/vendor/lib/libchromatix_ov13855_chicony_rear_default_preview_bu64297.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13855_chicony_rear_default_preview_bu64297.so \
-    vendor/asus/X01BD/proprietary/vendor/lib/libchromatix_ov13855_chicony_rear_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13855_chicony_rear_default_video.so \
-    vendor/asus/X01BD/proprietary/vendor/lib/libchromatix_ov13855_chicony_rear_default_video_bu64297.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13855_chicony_rear_default_video_bu64297.so \
-    vendor/asus/X01BD/proprietary/vendor/lib/libchromatix_ov13855_chicony_rear_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13855_chicony_rear_hfr_120.so \
-    vendor/asus/X01BD/proprietary/vendor/lib/libchromatix_ov13855_chicony_rear_hfr_120_bu64297.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13855_chicony_rear_hfr_120_bu64297.so \
-    vendor/asus/X01BD/proprietary/vendor/lib/libchromatix_ov13855_chicony_rear_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13855_chicony_rear_hfr_60.so \
-    vendor/asus/X01BD/proprietary/vendor/lib/libchromatix_ov13855_chicony_rear_hfr_60_bu64297.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13855_chicony_rear_hfr_60_bu64297.so \
-    vendor/asus/X01BD/proprietary/vendor/lib/libchromatix_ov13855_chicony_rear_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13855_chicony_rear_hfr_90.so \
-    vendor/asus/X01BD/proprietary/vendor/lib/libchromatix_ov13855_chicony_rear_hfr_90_bu64297.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13855_chicony_rear_hfr_90_bu64297.so \
-    vendor/asus/X01BD/proprietary/vendor/lib/libchromatix_ov13855_chicony_rear_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13855_chicony_rear_postproc.so \
-    vendor/asus/X01BD/proprietary/vendor/lib/libchromatix_ov13855_chicony_rear_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13855_chicony_rear_preview.so \
-    vendor/asus/X01BD/proprietary/vendor/lib/libchromatix_ov13855_chicony_rear_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13855_chicony_rear_snapshot.so \
-    vendor/asus/X01BD/proprietary/vendor/lib/libchromatix_ov13855_chicony_rear_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13855_chicony_rear_video_full.so \
-    vendor/asus/X01BD/proprietary/vendor/lib/libchromatix_ov13855_chicony_rear_zsl_preview_bu64297.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13855_chicony_rear_zsl_preview_bu64297.so \
-    vendor/asus/X01BD/proprietary/vendor/lib/libchromatix_ov13855_chicony_rear_zsl_video_bu64297.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13855_chicony_rear_zsl_video_bu64297.so \
     vendor/asus/X01BD/proprietary/vendor/lib/libchromatix_ov13855_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13855_common.so \
     vendor/asus/X01BD/proprietary/vendor/lib/libchromatix_ov13855_cpp_bokeh.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13855_cpp_bokeh.so \
     vendor/asus/X01BD/proprietary/vendor/lib/libchromatix_ov13855_cpp_ds_chromatix.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13855_cpp_ds_chromatix.so \
@@ -862,8 +834,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X01BD/proprietary/vendor/lib/libmmcamera_isp_snr47.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_snr47.so \
     vendor/asus/X01BD/proprietary/vendor/lib/libmmcamera_isp_sub_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_sub_module.so \
     vendor/asus/X01BD/proprietary/vendor/lib/libmmcamera_ov13855.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov13855.so \
-    vendor/asus/X01BD/proprietary/vendor/lib/libmmcamera_ov13855_chicony_rear.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov13855_chicony_rear.so \
-    vendor/asus/X01BD/proprietary/vendor/lib/libmmcamera_ov13855_chicony_rear_fm24c64d_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov13855_chicony_rear_fm24c64d_eeprom.so \
     vendor/asus/X01BD/proprietary/vendor/lib/libmmcamera_ov13855_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov13855_eeprom.so \
     vendor/asus/X01BD/proprietary/vendor/lib/libmmcamera_ov13855_holitech_13m.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov13855_holitech_13m.so \
     vendor/asus/X01BD/proprietary/vendor/lib/libmmcamera_ov13855_holitech_13m_fm24c64d_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov13855_holitech_13m_fm24c64d_eeprom.so \
